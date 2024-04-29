@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(156, 55, 55);
+  color: azure;
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/web-dev.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  padding: 10px 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: rgb(124, 131, 131);
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #594a4f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.header-text {
+  margin-top: 20%;
+  font-size: 20px;
+}
+
+.header-text h2 {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.header-text h2 span {
+  color: rgb(201, 56, 56);
+}
+
+#about {
+  padding: 20px 0;
+  color: #ababab;
+}
+
+p {
+  font-size: 16px;
+}
+
+.portfolio {
+  height: 0px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.about-me {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(201, 56, 56);
+  color: #160101;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(201, 56, 56);
+  color: #160101;
+}
+
+.contact {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.card-contact ul li {
+  display: inline;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.card-contact ul li a {
+  color: rgb(29, 14, 14);
+  text-decoration: underline;
+  font-size: 18px;
+  position: relative;
+}
+
+.card-contact ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #d0d0d0;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+}
+.card-contact ul li a:hover::after {
+  width: 100%;
+}
+
+.about {
+  max-height: 200px;
+}
+
+.project {
+  max-height: 200px;
+}
+
+.contact {
+  max-height: 200px;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.project h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}

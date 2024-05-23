@@ -24,4 +24,4 @@
 
 <li>GitHub</li>
 </ul>
-![My Website View](<Screenshot 2024-05-23 at 1.13.02 PM.png>)
+![My Website View](../Personal-portfolio/Assets/images/website_img.png)

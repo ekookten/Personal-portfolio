@@ -91,6 +91,14 @@ main {
   margin-left: 20px;
 }
 
+.shared-class {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  width: 1300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 .float-left {
   float: left;
   margin-right: 25px;
@@ -101,31 +109,17 @@ main {
   margin-left: 25px;
 }
 
-.about-me {
-  /* display: flex;
-  justify-content: center; */
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.about {
   background-color: #fe215e;
   color: #160101;
 }
 
 .project {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgb(201, 56, 56);
   color: #160101;
 }
 
 .contact {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }

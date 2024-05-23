@@ -10,6 +10,13 @@ body {
   color: azure;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 10px;
+}
+
 p {
   font-size: 16px;
 }
@@ -77,11 +84,6 @@ header {
   color: rgb(201, 56, 56);
 }
 
-.container {
-  padding: 10px 10px;
-}
-
-
 /* MAIN STARTS HERE */
 main {
   width: 75%;
@@ -100,6 +102,8 @@ main {
 }
 
 .about-me {
+  /* display: flex;
+  justify-content: center; */
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -117,7 +121,7 @@ main {
   color: #160101;
 }
 
-.Contact {
+.contact {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -152,18 +156,6 @@ main {
   width: 100%;
 }
 
-.about {
-  max-height: 200px;
-}
-
-.Project {
-  max-height: 200px;
-}
-
-.contact {
-  max-height: 200px;
-}
-
 .about h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -180,7 +172,6 @@ main {
 }
 
 /* FOOTER STARTS HERE */
-
 
 .footer {
   padding: 30px;

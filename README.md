@@ -24,4 +24,5 @@
 
 <li>GitHub</li>
 </ul>
-![My Website View](../Personal-portfolio/Assets/images/website_img.png)
+<img width="1426" alt="Screenshot 2024-05-23 at 1 13 02 PM" src="https://github.com/ekookten/Personal-portfolio/assets/160375665/b0e1d9ba-1ee6-4de2-af22-8e0f6fbad2fb">
+

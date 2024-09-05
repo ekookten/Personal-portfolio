@@ -23,7 +23,6 @@ Technologies
 
 HTML5
 CSS3 (Flexbox, CSS Variables, Media Queries)
-JavaScript (optional)
 GitHub Pages for deployment
 Usage
 

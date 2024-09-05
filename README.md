@@ -1,28 +1,44 @@
-# Personal-portfolio
+Erkan Okten's Portfolio
 
-<h2> Portfolio website built with Vs Code. </h1>
+Description
 
-<h3>  This was a website built to showcase my technical skills, web design skills.</h3>
+This is my personal portfolio website that showcases my skills, work, and projects as a junior web developer. The website is built with HTML and CSS and features responsive design using Flexbox, media queries, and CSS variables. It contains an About section, a Work section displaying my projects with links to live versions and GitHub repositories, and a Contact section where users can send me messages.
 
-<h4>Project timeline and technologies used </h4>
+Table of Contents
 
-<p>Build a Portfolio website to showcase the following:</p>
+Description
+Features
+Technologies
+Usage
+Screenshots
+Links
+License
+Features
 
-<ul>
-<li>My technical skill set </li>
+Responsive design that adapts to different screen sizes (desktop, tablet, mobile).
+Smooth scrolling between sections when clicking navigation links.
+Project showcase with images and links to live applications and GitHub repositories.
+Contact form to allow users to send messages.
+Technologies
 
-<li>My projects</li>
+HTML5
+CSS3 (Flexbox, CSS Variables, Media Queries)
+JavaScript (optional)
+GitHub Pages for deployment
+Usage
 
-</ul>
+Navigate to the website to view my portfolio.
+Explore the different sections:
+About: Learn more about me and my background.
+Work: See the projects I’ve worked on, including links to live demos and GitHub repositories.
+Contact: Send me a message using the contact form.
+The website is fully responsive, so you can view it on any device.
+Screenshots
 
-<p>Technologies Used:</p>
+Links
 
-<ul>
-<li>HTML5</li>
+Deployed Portfolio: https://ekookten.github.io/Personal-portfolio/
+GitHub Repository: https://github.com/ekookten/Personal-portfolio
+License
 
-<li>CSS</li>
-
-<li>GitHub</li>
-</ul>
-<img width="1426" alt="Screenshot 2024-05-23 at 1 13 02 PM" src="https://github.com/ekookten/Personal-portfolio/assets/160375665/b0e1d9ba-1ee6-4de2-af22-8e0f6fbad2fb">
-
+This project is licensed under the MIT License.

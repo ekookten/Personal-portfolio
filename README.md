@@ -38,7 +38,9 @@ Screenshots
 Links
 
 Deployed Portfolio: https://ekookten.github.io/Personal-portfolio/
+
 GitHub Repository: https://github.com/ekookten/Personal-portfolio
+
 License
 
 This project is licensed under the MIT License.
